@@ -1,2 +1,2 @@
 # SLICE-DHV-Firmware-Upgrade
-Firmware for SLICE DHV models
+Repository for the latest released firmware for the SLICE DHV
