@@ -36,7 +36,7 @@ Repository for the latest released firmware for the SLICE DHV
     PySerial library 3.x versions no longer require a Python library modification to work with SLICE devices.
 5.  Fixes:
     Blue Button Press is no longer required for initiating USB firmware upgrades for software versions going forward. 
-    (blue button is still required to upgrade to S1.77_HV1.17)
+    (blue button is still required to upgrade to S1.79_HV1.18 from S1.75_HV1.15)
 6.  Adds:
     The ability to accept any of the following API serial command terminators.
     \r, \n, \r\n, or \n\r
