@@ -7,11 +7,29 @@ Repository for the latest released firmware for the SLICE DHV
   https://github.com/Vescent/SLICE-FFC_Firmware_Upgrade_Utility
 ## Instructions
  
-  Left click on SLICE_Firmware_Update_Instructions-V1-10.pdf and then click 'Download' to download the instructions for use.
+  Left click on SLICE_Firmware_Update_Instructions-V1-21.pdf and then click 'Download' to download the instructions for use.
 
-  Left click on the upgrade package (SC-x-xx-HV-x-xx.zip) and then click 'Download' to download the firmware package to your hard drive.
+  The V1.21 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
+  You may need to perform the following steps:  
   
-  The three files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!
+       Left click on the upgrade package (SC-x-xx-HV-x-xx.zip) and then click 'Download' to download the firmware package to your  
+       hard drive.
+  
+       The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
+## Configuration S1.86_HV.21
+ 1. Fixes:  
+     Bug where it was possible to set invalid values in the "Range [V]" field via keypad entry.  
+     The values are now properly clamped to the acceptable range before they are allowed to be applied. 
+ 2. Fixes:  
+     Bug wherein rotary knob adjustment of Voltage Setpoint could cause a fatal lockup.   
+ 3. Fixes:  
+     Bug wherein rotary knob adjustment during TUNE mode could cause the SLICE-DHV to lockup (non-fatally).  
+ 4. Fixes:  
+     Bug involving redundant warning dialogs.  A check function has been added to the code so that if a dialog  
+     box is already being displayed, a new one will not be spawned.  
+ 5. Fixes:  
+     Prevents a possible rare lockup associated with TUNE mode, Settings Lock, and the General Settings menu.  
+ 
 ## Configuration S1.79_HV1.18
  1. Adds:
     Ability to identify R04 or R03 ICE2-HVA board and enable switching output mode on R04 equipped units.
