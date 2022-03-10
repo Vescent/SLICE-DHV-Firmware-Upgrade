@@ -7,15 +7,16 @@ Repository for the latest released firmware for the SLICE DHV
   https://github.com/Vescent/SLICE-FFC_Firmware_Upgrade_Utility
 ## Instructions
  
-  Left click on SLICE_Firmware_Update_Instructions-V1-21.pdf and then click 'Download' to download the instructions for use.
+  Left click on SLICE_Firmware_Update_Instructions.pdf and then click 'Download' to download the instructions for use.
 
-  The V1.21 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
+  The V1.23 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
   You may need to perform the following steps:  
   
        Left click on the upgrade package (SC-x-xx-HV-x-xx.zip) and then click 'Download' to download the firmware package to your  
        hard drive.
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
+	   
 ## Configuration S1.95_HV.24
  1.	Adds:
 	 Non-volatile memory storage of the modulation mode during SLICE-DHV power off state.
@@ -35,7 +36,7 @@ Repository for the latest released firmware for the SLICE DHV
 	 Lock/Unlock icon would sometimes disappear from view during manipulation of the locked/ unlocked state.
  8.	Fixes:
 	 Possibility of a GUI lockup requiring a power cycle if a side bar button was pressed while adjusting 
-	 Volume or Display Backlight values with a rotary knob.
+	 Volume or Display Back-light values with a rotary knob.
  9.	Revises:
 	 I2C architecture to eliminate random communication errors between the System Controller and ICE2 board.
 10. Adds:
@@ -43,7 +44,7 @@ Repository for the latest released firmware for the SLICE DHV
 11.	Adds:
 	 Serial number is now displayed on general settings screen.
 12.	Fixes:
-	 Front Panel B intput selection now shows the correct Ch 2 designation when chosen.
+	 Front Panel B input selection now shows the correct Ch 2 designation when chosen.
 13.	Fixes:
 	 Output trigger selection now immediately clears the non-selected channel (if previously selected) 
 	 when a channel is selected.
