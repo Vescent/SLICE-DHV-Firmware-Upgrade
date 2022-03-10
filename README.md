@@ -16,6 +16,41 @@ Repository for the latest released firmware for the SLICE DHV
        hard drive.
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
+## Configuration S1.95_HV.24
+ 1.	Adds:
+	 Non-volatile memory storage of the modulation mode during SLICE-DHV power off state.
+ 2. Fixes:
+	 Modulation voltage bleed through when selected as a front panel input after a SLICE-DHV power cycle
+ 3.	Fixes:
+	 Voltage output of greater than 100mV when channels were disabled.
+ 4.	Fixes:
+	 Duplicate "Settings are Locked" message screens requiring two button presses to release them.
+ 5.	Fixes:
+	 Modal window inversion that could place a pop up selection menu on top of the “Settings are Locked” 
+	 message screen which required extra steps to dismiss both windows.
+ 6.	Fixes:
+	 Touching and sliding your finger off of an external I/O selection button on the I/O screen would cause 
+	 the current entry to disappear.
+ 7. Fixes:
+	 Lock/Unlock icon would sometimes disappear from view during manipulation of the locked/ unlocked state.
+ 8.	Fixes:
+	 Possibility of a GUI lockup requiring a power cycle if a side bar button was pressed while adjusting 
+	 Volume or Display Backlight values with a rotary knob.
+ 9.	Revises:
+	 I2C architecture to eliminate random communication errors between the System Controller and ICE2 board.
+10. Adds:
+	 SLICE-DHV and the unit’s serial number are now included in the USB descriptor data.
+11.	Adds:
+	 Serial number is now displayed on general settings screen.
+12.	Fixes:
+	 Front Panel B intput selection now shows the correct Ch 2 designation when chosen.
+13.	Fixes:
+	 Output trigger selection now immediately clears the non-selected channel (if previously selected) 
+	 when a channel is selected.
+14. Fixes:
+	 Cross talk within the System Controller firmware that resulted in attempts to use some SLICE-QTC I2C 
+	 commands to talk with the ICE2-HV board. (would result in a GUI lockup)
+	 
 ## Configuration S1.86_HV.21
  1. Fixes:  
      Bug where it was possible to set invalid values in the "Range [V]" field via keypad entry.  
