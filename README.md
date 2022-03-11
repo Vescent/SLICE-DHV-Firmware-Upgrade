@@ -18,7 +18,7 @@ Repository for the latest released firmware for the SLICE DHV
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 	   
 ## Configuration S1.95_HV.24 
-###(NOTE: This Upgrade Will Be Recognized As A Different COM Port Number After The Upgrade)
+### (NOTE: This Upgrade Will Be Recognized As A Different COM Port Number After The Upgrade)
  1.	Adds:
 	 Non-volatile memory storage of the modulation mode during SLICE-DHV power off state.
  2. Fixes:
