@@ -9,7 +9,7 @@ Repository for the latest released firmware for the SLICE DHV
  
   Left click on SLICE_Firmware_Update_Instructions.pdf and then click 'Download' to download the instructions for use.
 
-  The V1.23 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
+  The V1.42 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
   You may need to perform the following steps:  
   
        Left click on the upgrade package (SC-x-xx-HV-x-xx.zip) and then click 'Download' to download the firmware package to your  
@@ -17,25 +17,37 @@ Repository for the latest released firmware for the SLICE DHV
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 	   
+## Configuration S1.96_HV.25 
+1.	Adds:
+	Invert functionality for Input and Output Triggers
+2.	Adds:
+	Disable-only Input Trigger Option
+3. 	Fixes:
+	Changing a Trigger In selection through the API now updates the Trigger In icon on the touchscreen GUI
+4.	Fixes:
+	Disabling a channel using Trigger In not turning off the sweep or its timer on that channel, leading to a range of possible output voltages upon re-enabling
+5.	Changes:
+	Channels can be controlled as usual when attached to an input trigger, but will only supply voltage when that trigger is in the enable state.
+
 ## Configuration S1.95_HV.24 
 ### (NOTE: This Upgrade Will Be Recognized As A Different COM Port Number After The Upgrade)
- 1.	Adds:
+1.	Adds:
 	 Non-volatile memory storage of the modulation mode during SLICE-DHV power off state.
- 2. Fixes:
+2. 	Fixes:
 	 Modulation voltage bleed through when selected as a front panel input after a SLICE-DHV power cycle
- 3.	Fixes:
+3.	Fixes:
 	 Voltage output of greater than 100mV when channels were disabled.
- 4.	Fixes:
+4.	Fixes:
 	 Duplicate "Settings are Locked" message screens requiring two button presses to release them.
- 5.	Fixes:
+5.	Fixes:
 	 Modal window inversion that could place a pop up selection menu on top of the “Settings are Locked” 
 	 message screen which required extra steps to dismiss both windows.
- 6.	Fixes:
+6.	Fixes:
 	 Touching and sliding your finger off of an external I/O selection button on the I/O screen would cause 
 	 the current entry to disappear.
- 7. Fixes:
+7. Fixes:
 	 Lock/Unlock icon would sometimes disappear from view during manipulation of the locked/ unlocked state.
- 8.	Fixes:
+8.	Fixes:
 	 Possibility of a GUI lockup requiring a power cycle if a side bar button was pressed while adjusting 
 	 Volume or Display Back-light values with a rotary knob.
  9.	Revises:
