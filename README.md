@@ -17,7 +17,7 @@ Repository for the latest released firmware for the SLICE DHV
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
-## Configuration S1.96_HV.25 
+## Configuration S1.97_HV.25 
 Adds support for the new Rotary Encoders.
 
 ## Configuration S1.96_HV.25 
