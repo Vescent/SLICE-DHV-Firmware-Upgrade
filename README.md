@@ -1,4 +1,4 @@
-# SLICE-DHV-Firmware-Upgrade
+# SLICE-OPL-Firmware-Upgrade
 Repository for the latest released firmware for the SLICE DHV
 
 ## Requires 
@@ -16,7 +16,10 @@ Repository for the latest released firmware for the SLICE DHV
        hard drive.
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
-	   
+
+## Configuration S1.96_HV.25 
+Adds support for the new Rotary Encoders.
+
 ## Configuration S1.96_HV.25 
 1.	Adds:
 	Invert functionality for Input and Output Triggers
