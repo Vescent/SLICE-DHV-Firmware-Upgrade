@@ -7,7 +7,7 @@ Repository for the latest released firmware for the SLICE DHV
   https://github.com/Vescent/SLICE-FFC_Firmware_Upgrade_Utility
 ## Instructions
  
-  Left click on SLICE_Firmware_Update_Instructions.pdf and then click 'Download' to download the instructions for use.
+  Left click on SLICE_Firmware_Update_Instructions-V1-42.pdf and then click 'Download' to download the instructions for use.
 
   The V1.42 firmware upgrader automatically retrieves the upgrade files from this repository. However, if your system does not allow this,  
   You may need to perform the following steps:  
