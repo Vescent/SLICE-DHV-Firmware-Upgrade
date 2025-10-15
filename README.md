@@ -17,6 +17,12 @@ Repository for the latest released firmware for the SLICE DHV
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 	   
+## Configuration S1.98_HV.28 
+1.	Adds:
+	Internal box temperature monitoring and safety shutoff for over temperature situations for CE compliance.
+2.	Adds:
+	Inter-board communication monitoring and error messaging if failures are detected. 
+
 ## Configuration S1.96_HV.25 
 1.	Adds:
 	Invert functionality for Input and Output Triggers
