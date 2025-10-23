@@ -17,16 +17,16 @@ Repository for the latest released firmware for the SLICE DHV
   
        The 2 files in the .zip file need to be placed in the folder described in the instructions. DO NOT RENAME THEM!  
 
-## Configuration S1.98_HV.28 
+## Configuration S1.98_HV1.28 
 1.	Adds:
 	Internal box temperature monitoring and safety shutoff for over temperature situations for CE compliance.
 2.	Adds:
 	Inter-board communication monitoring and error messaging if failures are detected. 
 
-## Configuration S1.97_HV.25 
+## Configuration S1.97_HV1.25 
 Adds support for the new Rotary Encoders.
 
-## Configuration S1.96_HV.25 
+## Configuration S1.96_HV1.25 
 1.	Adds:
 	Invert functionality for Input and Output Triggers
 2.	Adds:
@@ -38,7 +38,7 @@ Adds support for the new Rotary Encoders.
 5.	Changes:
 	Channels can be controlled as usual when attached to an input trigger, but will only supply voltage when that trigger is in the enable state.
 
-## Configuration S1.95_HV.24 
+## Configuration S1.95_HV1.24 
 ### (NOTE: This Upgrade Will Be Recognized As A Different COM Port Number After The Upgrade)
 1.	Adds:
 	 Non-volatile memory storage of the modulation mode during SLICE-DHV power off state.
@@ -74,7 +74,7 @@ Adds support for the new Rotary Encoders.
 	 Cross talk within the System Controller firmware that resulted in attempts to use some SLICE-QTC I2C 
 	 commands to talk with the ICE2-HV board. (would result in a GUI lockup)
 	 
-## Configuration S1.86_HV.21
+## Configuration S1.86_HV1.21
  1. Fixes:  
      Bug where it was possible to set invalid values in the "Range [V]" field via keypad entry.  
      The values are now properly clamped to the acceptable range before they are allowed to be applied. 
